@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f1ea;
+  color: #20261f;
+  font-family: Georgia, 'Noto Serif SC', serif;
+  line-height: 1.65;
+}
+
+main {
+  width: min(760px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 64px 0 80px;
+}
+
+header {
+  border-bottom: 2px solid #20261f;
+  padding-bottom: 28px;
+  margin-bottom: 12px;
+}
+
+.eyebrow {
+  color: #637355;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.description {
+  font-size: 18px;
+  margin: 18px 0 0;
+  max-width: 60ch;
+}
+
+.subscribe {
+  background: #dce6c8;
+  border-left: 4px solid #637355;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 14px;
+  margin: 28px 0;
+  padding: 14px 16px;
+}
+
+.subscribe-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 11px;
+}
+
+.subscribe-links a {
+  background: #20261f;
+  color: #f4f1ea;
+  padding: 4px 9px;
+  text-decoration: none;
+}
+
+.subscribe-links a:hover {
+  background: #637355;
+}
+
+article {
+  border-bottom: 1px solid #bec2b5;
+  padding: 26px 0 28px;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 1.25;
+  letter-spacing: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+h2 a {
+  color: inherit;
+  text-decoration-color: #91a37b;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+time {
+  color: #637355;
+  display: block;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.summary {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+p img {
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: 4px solid #637355;
+  margin: 0;
+  padding-left: 16px;
+}
+
+pre code {
+  border: 1px solid #637355;
+  display: block;
+  overflow-x: auto;
+  padding: 12px 16px;
+}
+
+footer {
+  color: #637355;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 13px;
+  padding-top: 24px;
+}
+
+@media (max-width: 520px) {
+  main {
+    padding-top: 36px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}
