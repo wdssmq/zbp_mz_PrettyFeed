@@ -1,3 +1,5 @@
+> 已发布收费应用 11 个，免费应用 104 个。
+
 ## 投喂支持
 
 爱发电：[https://afdian.com/a/wdssmq](https://afdian.com/a/wdssmq "沉冰浮水正在创作和 z-blog 相关或无关的各种有用或没用的代码 | 爱发电")
